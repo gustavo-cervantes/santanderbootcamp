@@ -1,4 +1,4 @@
-package edu.gustavo.primeirasemana;
+package edu.gustavo.primeirasemanateste;
 public class BoletimEstudantil {
 
 

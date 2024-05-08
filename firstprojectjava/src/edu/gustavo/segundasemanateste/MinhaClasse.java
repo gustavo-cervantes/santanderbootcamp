@@ -1,4 +1,4 @@
-package edu.gustavo.segundasemana;
+package edu.gustavo.segundasemanateste;
 public class MinhaClasse {
     
     public static void main (String[] args) {
