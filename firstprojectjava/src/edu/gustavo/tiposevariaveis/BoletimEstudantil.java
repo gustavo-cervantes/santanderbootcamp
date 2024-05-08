@@ -1,4 +1,4 @@
-package edu.gustavo.primeirasemanateste;
+package edu.gustavo.tiposevariaveis;
 public class BoletimEstudantil {
 
 

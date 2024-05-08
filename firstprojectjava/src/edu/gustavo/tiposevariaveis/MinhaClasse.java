@@ -1,4 +1,4 @@
-package edu.gustavo.segundasemanateste;
+package edu.gustavo.tiposevariaveis;
 public class MinhaClasse {
     
     public static void main (String[] args) {
