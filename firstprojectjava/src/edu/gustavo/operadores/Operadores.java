@@ -22,7 +22,7 @@ public class Operadores {
 
         concatenacao = "1"+(1+1+1);
 
-        //unários
+        
         
     }
 }
