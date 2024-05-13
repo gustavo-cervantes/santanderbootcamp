@@ -1,5 +1,5 @@
 package edu.gustavo.tiposevariaveis;
-public class MinhaClasse {
+public class Concat {
     
     public static void main (String[] args) {
         
