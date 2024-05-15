@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CaixaEletronico",
+            "request": "launch",
+            "mainClass": "edu.gustavo.controlefluxo.CaixaEletronico",
+            "projectName": "diojava_dc345ce0"
+        },
+        {
+            "type": "java",
+            "name": "Fluxo",
+            "request": "launch",
+            "mainClass": "edu.gustavo.controlefluxo.Fluxo",
+            "projectName": "diojava_dc345ce0"
+        },
+        {
+            "type": "java",
             "name": "ContaTerminal",
             "request": "launch",
             "mainClass": "edu.gustavo.contabanco.ContaTerminal",
