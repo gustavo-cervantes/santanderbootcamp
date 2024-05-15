@@ -1,4 +1,4 @@
-package edu.gustavo.controlefluxo;
+package edu.gustavo.estruturascondicionais;
 
 public class ResultadoEscolar {
     public static void main(String[] args) {

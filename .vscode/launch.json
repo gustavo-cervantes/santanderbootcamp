@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PlanoOperadora",
+            "request": "launch",
+            "mainClass": "edu.gustavo.estruturascondicionais.PlanoOperadora",
+            "projectName": "diojava_dc345ce0"
+        },
+        {
+            "type": "java",
+            "name": "SistemaMedida",
+            "request": "launch",
+            "mainClass": "edu.gustavo.estruturascondicionais.SistemaMedida",
+            "projectName": "diojava_dc345ce0"
+        },
+        {
+            "type": "java",
+            "name": "ResultadoTernario",
+            "request": "launch",
+            "mainClass": "edu.gustavo.controlefluxo.ResultadoTernario",
+            "projectName": "diojava_dc345ce0"
+        },
+        {
+            "type": "java",
             "name": "ResultadoEscolar",
             "request": "launch",
             "mainClass": "edu.gustavo.controlefluxo.ResultadoEscolar",
