@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ResultadoEscolar",
+            "request": "launch",
+            "mainClass": "edu.gustavo.controlefluxo.ResultadoEscolar",
+            "projectName": "diojava_dc345ce0"
+        },
+        {
+            "type": "java",
             "name": "CaixaEletronico",
             "request": "launch",
             "mainClass": "edu.gustavo.controlefluxo.CaixaEletronico",
