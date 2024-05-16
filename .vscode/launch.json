@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ExemploForArray",
+            "request": "launch",
+            "mainClass": "edu.gustavo.estruturasderep.ExemploForArray",
+            "projectName": "diojava_dc345ce0"
+        },
+        {
+            "type": "java",
+            "name": "For",
+            "request": "launch",
+            "mainClass": "edu.gustavo.estruturasderep.For",
+            "projectName": "diojava_dc345ce0"
+        },
+        {
+            "type": "java",
             "name": "PlanoOperadora",
             "request": "launch",
             "mainClass": "edu.gustavo.estruturascondicionais.PlanoOperadora",
