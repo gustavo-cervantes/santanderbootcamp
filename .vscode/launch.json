@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ExemploDoWhile",
+            "request": "launch",
+            "mainClass": "edu.gustavo.estruturasderep.ExemploDoWhile",
+            "projectName": "diojava_dc345ce0"
+        },
+        {
+            "type": "java",
+            "name": "ExemploWhile",
+            "request": "launch",
+            "mainClass": "edu.gustavo.estruturasderep.ExemploWhile",
+            "projectName": "diojava_dc345ce0"
+        },
+        {
+            "type": "java",
             "name": "ExemploBreakContinue",
             "request": "launch",
             "mainClass": "edu.gustavo.estruturasderep.ExemploBreakContinue",
