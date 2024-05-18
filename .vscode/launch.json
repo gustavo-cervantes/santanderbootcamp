@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AboutMe",
+            "request": "launch",
+            "mainClass": "edu.gustavo.estruturasexcepcionais.AboutMe",
+            "projectName": "diojava_dc345ce0"
+        },
+        {
+            "type": "java",
             "name": "ExemploDoWhile",
             "request": "launch",
             "mainClass": "edu.gustavo.estruturasderep.ExemploDoWhile",
