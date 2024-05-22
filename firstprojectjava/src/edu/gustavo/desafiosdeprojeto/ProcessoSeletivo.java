@@ -1,11 +1,41 @@
 package edu.gustavo.desafiosdeprojeto;
 import java.util.concurrent.ThreadLocalRandom;
+import java.util.Random;
 
 public class ProcessoSeletivo {
     public static void main(String[] args) {
-        selecaoCandidatos();
-        imprimirSelecionados();
+        String [] candidatos = {"FELIPE","MARCIA","JULIA","PAULO","AUGUSTO","MONICA","FABRICIO","MIRELA","DANIELA","JORGE"};
+        for(String candidato: candidatos) {
+            entrandoEmContato(candidato);
+        }
+        //selecaoCandidatos();
+        //imprimirSelecionados();
     }
+    static void entrandoEmContato(String candidato) {
+        int tentativasRealizadas =1;
+        boolean continuarTentando = true;
+        boolean atendeu=false;
+        do {
+            atendeu = atender();
+            continuarTentando = !atendeu;
+            if(continuarTentando)
+                tentativasRealizadas++;
+                else
+                    System.out.println("Contato realizado com sucesso");
+            // precisam sofrer alterações 
+        }while(continuarTentando && tentativasRealizadas<3);
+
+        if(atendeu)
+        System.out.println("Conseguimos contato com " + candidato + " na " + tentativasRealizadas + " realizada ");
+        else
+            System.out.println("Nao conseguimos contato com " + candidato + ", número maximo de tentativas " + tentativasRealizadas + " Realizada");
+    }
+
+    //metodo auxiliar
+    static boolean atender() {
+        return new Random().nextInt(3)==1;
+    }
+
     static void imprimirSelecionados() {
         String [] candidatos = {"FELIPE","MÁRCIA","JULIA","PAULO","AUGUSTO","MÔNICA","FABRÍCIO","MIRELA","DANIELA","JORGE"};
 
