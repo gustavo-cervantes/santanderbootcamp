@@ -1,4 +1,4 @@
-package edu.gustavo.contabanco;
+package edu.gustavo.desafiosdeprojeto;
 
 import java.util.Scanner;
 
