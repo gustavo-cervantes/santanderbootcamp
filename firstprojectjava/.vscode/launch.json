@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "OperacaoBancaria",
+            "request": "launch",
+            "mainClass": "edu.gustavo.desafiosdeprojeto.OperacaoBancaria",
+            "projectName": "firstprojectjava_87a5215a"
+        },
+        {
+            "type": "java",
             "name": "Contador",
             "request": "launch",
             "mainClass": "edu.gustavo.desafiosdeprojeto.Contador",
