@@ -1,11 +1,11 @@
-package edu.gustavo.desafiosdeprojeto;
-import java.util.Scanner;
+using System;
 
-public class Ifs {
-    public static void main(String[] args) {
-        Scanner leitordeEntradas = new Scanner(System.in);
-        float valorSalario = leitordeEntradas.nextFloat();
-        float valorBeneficios = leitordeEntradas.nextFloat();
+public class CalculoSalarial
+{
+    public static void Main()
+    { 
+        float valorSalario = float.Parse(Console.ReadLine());
+        float valorBeneficios = float.Parse(Console.ReadLine());
 
         float valorImposto = 0;
 
@@ -21,6 +21,6 @@ public class Ifs {
         }
 
         float saida = valorSalario - valorImposto + valorBeneficios;
-        System.out.println(String.format(".2f", saida));
+        Console.WriteLine(saida.ToString("0.00"));    
     }
 }
