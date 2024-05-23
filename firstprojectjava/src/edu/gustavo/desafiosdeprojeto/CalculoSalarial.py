@@ -13,4 +13,4 @@ valor_beneficios = float(input())
 
 valor_imposto = calcular_imposto(valor_salario)
 saida = valor_salario - valor_imposto + valor_beneficios
-print(f'{saida: .2f}')
+print(f'{saida:.2f}')
