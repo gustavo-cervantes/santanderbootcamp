@@ -1,7 +1,8 @@
+package edu.gustavo.desafiosdeprojeto;
 import java.util.Scanner;
 
 public class VerificadorElegibilidadeConta {
-
+    
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
