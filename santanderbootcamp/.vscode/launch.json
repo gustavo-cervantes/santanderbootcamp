@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Autodromo",
+            "request": "launch",
+            "mainClass": "edu.gustavo.pilarespoo.Autodromo",
+            "projectName": "santanderbootcamp_5e538db4"
+        },
+        {
+            "type": "java",
             "name": "SistemaIbge",
             "request": "launch",
             "mainClass": "edu.gustavo.enums.SistemaIbge",
