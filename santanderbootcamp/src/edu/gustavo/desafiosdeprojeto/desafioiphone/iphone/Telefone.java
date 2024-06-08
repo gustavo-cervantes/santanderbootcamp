@@ -1,5 +1,7 @@
 package edu.gustavo.desafiosdeprojeto.desafioiphone.iphone;
 
-public class Telefone {
-    
+public interface Telefone {
+    void ligar();
+    void atender();
+    void iniciarCorrerioVoz();
 }

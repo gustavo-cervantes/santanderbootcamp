@@ -1,5 +1,7 @@
 package edu.gustavo.desafiosdeprojeto.desafioiphone.iphone;
 
-public class Imusic {
-    
+public interface Imusic {
+    void tocar();
+    void pausar();
+    void selecionarMusica();
 }

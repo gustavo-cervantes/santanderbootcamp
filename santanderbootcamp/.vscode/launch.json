@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Fabrica",
             "request": "launch",
+            "mainClass": "edu.gustavo.desafiosdeprojeto.desafioiphone.iphone.Fabrica",
+            "projectName": "santanderbootcamp_5e538db4"
+        },
+        {
+            "type": "java",
+            "name": "Fabrica",
+            "request": "launch",
             "mainClass": "edu.gustavo.interfaces.equipamentos.copiadora.estabelecimento.Fabrica",
             "projectName": "santanderbootcamp_5e538db4"
         },
