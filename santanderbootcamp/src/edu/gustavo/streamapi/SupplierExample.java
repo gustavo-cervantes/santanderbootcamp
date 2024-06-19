@@ -1,9 +1,9 @@
 package edu.gustavo.streamapi;
 
+import java.util.List;
 import java.util.function.Supplier;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-
 
 public class SupplierExample {
     public static void main(String[] args) {
@@ -18,4 +18,4 @@ public class SupplierExample {
       // Imprimir as saudações geradas
       listaSaudacoes.forEach(System.out::println);
     }
-}
+  }
