@@ -11,11 +11,12 @@ public class SupplierExample {
       Supplier<String> saudacao = () -> "Olá, seja bem-vindo(a)!";
   
       // Usar o Supplier para obter uma lista com 5 saudações
-      List<String> listaSaudacoes = Stream.generate(saudacao)
-          .limit(5)
-          .collect(Collectors.toList());
+      List<String> listaSaudacoes = Stream.generate(
+        () ->  "Olá, seja bem-vindo(a)! ")
+          .limit(2)
+          .toList();
   
       // Imprimir as saudações geradas
       listaSaudacoes.forEach(System.out::println);
     }
-  }
+}
