@@ -18,4 +18,4 @@ public class SupplierExample {
       // Imprimir as saudações geradas
       listaSaudacoes.forEach(System.out::println);
     }
-  }
+}
