@@ -1,21 +1,30 @@
 package edu.gustavo.desafiosdeprojeto.contabancaria;
 
-public class Conta {
+public abstract class Conta implements IConta{
     private int agencia;
     private int numero;
     private double saldo;
 
-    public static void main(String[] args) {
-        
+
+
+    @Override
+    public void sacar(double valor) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'sacar'");
     }
 
-    public void depositar() {
-
+    @Override
+    public void depositar(double valor) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'depositar'");
     }
 
-    public void transferir(){
-        
+    @Override
+    public void transferir(double valor, Conta contaDestino) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'transferir'");
     }
+
 
     public int getAgencia(){
         return agencia;
