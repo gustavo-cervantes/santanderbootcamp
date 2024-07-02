@@ -4,7 +4,8 @@ public class Aluno {
 	private String nome;
 	private int idade;
 	
-    private String sexo;
+    @SuppressWarnings("unused")
+	private String sexo;
     
 	public String getNome() {
 		return nome;

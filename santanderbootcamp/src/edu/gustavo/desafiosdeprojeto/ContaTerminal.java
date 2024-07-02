@@ -24,27 +24,27 @@ public class ContaTerminal {
 
     // Método para coletar dados da conta do cliente
     private void coletarDadosConta() {
-        // Criar objeto Scanner para leitura de entrada
-        Scanner scanner = new Scanner(System.in);
+        try (// Criar objeto Scanner para leitura de entrada
+        Scanner scanner = new Scanner(System.in)) {
+            // Solicitar e ler número da conta
+            System.out.print("Por favor, digite o número da conta: ");
+            numeroConta = scanner.nextInt();
 
-        // Solicitar e ler número da conta
-        System.out.print("Por favor, digite o número da conta: ");
-        numeroConta = scanner.nextInt();
+            // Solicitar e ler agência
+            System.out.print("Por favor, digite a agência: ");
+            agencia = scanner.next();
 
-        // Solicitar e ler agência
-        System.out.print("Por favor, digite a agência: ");
-        agencia = scanner.next();
+            // Limpar o buffer do scanner (para evitar problemas na leitura do nome)
+            scanner.nextLine();
 
-        // Limpar o buffer do scanner (para evitar problemas na leitura do nome)
-        scanner.nextLine();
+            // Solicitar e ler nome do cliente
+            System.out.print("Por favor, digite o nome do cliente: ");
+            nomeCliente = scanner.nextLine();
 
-        // Solicitar e ler nome do cliente
-        System.out.print("Por favor, digite o nome do cliente: ");
-        nomeCliente = scanner.nextLine();
-
-        // Solicitar e ler saldo
-        System.out.print("Por favor, digite o saldo inicial: ");
-        saldo = scanner.nextDouble();
+            // Solicitar e ler saldo
+            System.out.print("Por favor, digite o saldo inicial: ");
+            saldo = scanner.nextDouble();
+        }
     }
 
     // Método para exibir mensagem final com detalhes da conta
