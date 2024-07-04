@@ -1,10 +1,12 @@
 package edu.gustavo.desafiosdeprojeto.contabancaria;
 
-    private static int SEQUENCIAL = 1;
+public class ContaCorrente extends Conta {
+    
+    private static final int SEQUENCIAL = 0;
 
-    public class ContaCorrente extends Conta {
-      public ContaCorrente() {
+    public ContaCorrente() {
         super.agencia = 1;
-        super.numero = SEQUENCIAL++;
+        super.numero = SEQUENCIAL;
     }
+
 }

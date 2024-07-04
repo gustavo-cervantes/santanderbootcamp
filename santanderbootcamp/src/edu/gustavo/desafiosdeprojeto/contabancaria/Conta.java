@@ -5,8 +5,6 @@ public abstract class Conta implements IConta{
     protected int numero;
     protected double saldo;
 
-
-
     @Override
     public void sacar(double valor) {
         // TODO Auto-generated method stub
