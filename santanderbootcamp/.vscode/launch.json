@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "edu.gustavo.desafiosdeprojeto.contabancaria.Main",
+            "projectName": "santanderbootcamp_3ec58e50"
+        },
+        {
+            "type": "java",
             "name": "FunctionExample",
             "request": "launch",
             "mainClass": "edu.gustavo.streamapi.FunctionExample",
