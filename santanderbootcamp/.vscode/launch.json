@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "edu.gustavo.desafiosdeprojeto.desafiopoo.Main",
+            "projectName": "santanderbootcamp_3ec58e50"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "edu.gustavo.desafiosdeprojeto.contabancaria.Main",
             "projectName": "santanderbootcamp_3ec58e50"
         },
