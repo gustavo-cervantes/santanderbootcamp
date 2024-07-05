@@ -2,7 +2,7 @@ package edu.gustavo.desafiosdeprojeto.desafiopoo;
 
 import java.time.LocalDate;
 
-public class Mentoria {
+public class Mentoria extends Conteudo {
     private String titulo;
     private String descricao;
     private int cargaHoraria;
@@ -39,6 +39,13 @@ public class Mentoria {
     public void setData(LocalDate now) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'setData'");
+    }
+
+
+    @Override
+    public double calcularXP() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'calcularXP'");
     }
 
 }
