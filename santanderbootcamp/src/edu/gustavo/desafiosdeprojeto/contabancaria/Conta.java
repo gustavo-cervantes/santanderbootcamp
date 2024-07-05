@@ -15,6 +15,7 @@ public abstract class Conta implements IConta{
     public Conta(Cliente cliente) {
         this.agencia = Conta.AGENCIA_PADRAO;
         this.numero = SEQUENCIAL++;
+        this.cliente = cliente;
 
     }
     @Override
