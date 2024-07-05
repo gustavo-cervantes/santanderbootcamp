@@ -1,4 +1,4 @@
-package edu.gustavo.desafiosdeprojeto;
+package edu.gustavo.desafiosdeprojeto.calculosalarial;
 import java.util.Scanner;
 
 public class CalculoSalarial {
