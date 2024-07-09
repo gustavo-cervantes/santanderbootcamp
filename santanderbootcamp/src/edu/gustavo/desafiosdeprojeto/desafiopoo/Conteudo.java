@@ -31,8 +31,4 @@ public abstract class Conteudo {
     public void setDescricao(String descricao) {
         this.descricao = descricao;
     }
-
-
-    
-
 }
