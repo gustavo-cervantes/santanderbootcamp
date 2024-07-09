@@ -8,14 +8,12 @@ public class Dev {
     private Set<Conteudo> conteudosInscritos = new LinkedHashSet<>();
     private Set<Conteudo> conteudosConcluidos = new LinkedHashSet<>();
 
-    public static void inscreverBootcamp(Bootcamp bootcamp){
+    public void inscreverBootcamp(Bootcamp bootcamp){}
 
         public void progredir(){}
 
         public void calcularTotalXp() {}
         
-        
-    }
 
     public String getNome() {
         return nome;
