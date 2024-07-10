@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RegistroTransacoesComStream",
+            "request": "launch",
+            "mainClass": "edu.gustavo.desafiosdeprojeto.desafiosjava.RegistroTransacoesComStream",
+            "projectName": "santanderbootcamp_3ec58e50"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "edu.gustavo.desafiosdeprojeto.desafiopoo.Main",
