@@ -32,4 +32,12 @@ INSERT INTO viagens.destinos (id, nome, descricao) VALUES
 (2, 'Prainha', 'Uma praia familiar, e aconchegante, perfeita para tomar um chimarrão em família'),
 (3, 'Orla', 'Uma orla gastronômica com paisagem para o rio mampituba, repleta de opções culinárias.');
 
-INSERT INTO reservas (id, id_usuario, id_destino, status, data) VALUES (1, 1,1, 'pendente', '2024-11-11') 
+INSERT INTO viagens.reservas (id, id_usuario, id_destino, data, status) VALUES 
+(1, 1, 2, '2023-07-10', 'confirmada'),
+(2, 2, 1, '2023-08-05', 'pendente'),
+(1, 1,1, 'pendente', '2024-11-11');
+
+-- SELECTS --
+
+-- Selecionar todos os registros da tabela "usuarios"
+SELECT * FROM usuarios;
