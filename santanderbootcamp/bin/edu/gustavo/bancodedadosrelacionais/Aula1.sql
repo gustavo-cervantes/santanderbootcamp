@@ -19,3 +19,10 @@ CREATE TABLE viagens.reservas (
   data DATE COMMENT 'Data da reserva',
   status VARCHAR(255) DEFAULT 'pendente' COMMENT 'Status da reserva (confirmada, pendente, cancelada, etc.)'
 );
+
+
+INSERT INTO viagens.usuarios (id, nome, email, data_nascimento, endereco) VALUES 
+(1, 'João Silva', 'joao@example.com', '1990-05-15', 'Rua A, 123, Cidade X, Estado Y'),
+(2, 'Maria Santos', 'maria@example.com', '1985-08-22', 'Rua B, 456, Cidade Y, Estado Z'),
+(3, 'Pedro Souza', 'pedro@example.com', '1998-02-10', 'Avenida C, 789, Cidade X, Estado Y');
+(4, 'Gustavo', 'gustavo@example.com', '2006-05-29', 'Rua A, 123, Cidade 1, Estado 2');
