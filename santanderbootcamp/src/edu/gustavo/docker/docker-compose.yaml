@@ -5,7 +5,7 @@ services:
     image: mongo
     container_name: db
     restart: always
-    enviroment: 
+    environment: 
      - MONGO_INTDB_ROOT_USERNAME-dio
      - MONGO_INITDB_ROOT_PASSWORD=dio
     ports:
