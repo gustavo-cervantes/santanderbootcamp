@@ -6,7 +6,7 @@ services:
     container_name: db
     restart: always
     environment: 
-     - MONGO_INTDB_ROOT_USERNAME-dio
+     - MONGO_INITDB_ROOT_USERNAME-dio
      - MONGO_INITDB_ROOT_PASSWORD=dio
     ports:
      - '27017:27017'
