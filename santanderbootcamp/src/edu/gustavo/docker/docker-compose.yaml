@@ -6,9 +6,9 @@ services:
     container_name: db
     restart: always
     environment: 
-     - MONGO_INITDB_ROOT_USERNAME-dio
+     - MONGO_INITDB_ROOT_USERNAME=dio
      - MONGO_INITDB_ROOT_PASSWORD=dio
     ports:
      - '27017:27017'
     volumes:
-     - C:\Users\gvsta\Documents\coding\santander\diojava\santanderbootcamp\src\edu\gustavo\docker
+     - /c/Users/gvsta/Documents/coding/santander/diojava/santanderbootcamp/src/edu/gustavo/docker:/data/db
