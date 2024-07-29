@@ -1,10 +1,10 @@
-package springscurity.gustavo;
+package dev.alex.api;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringsecurityApplicationTests {
+class ApiApplicationTests {
 
 	@Test
 	void contextLoads() {
